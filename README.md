@@ -13,8 +13,8 @@ This app demonstrates Visual Studio Multi Tier Azure Service Bus. it Includes Se
 7. In Solution Explorer, Expand MultiTierApp->Roles and Right-Click OrderProcessingRole and Select Properties.
 8. In the Peroperties Windows, under Settings, Change the value of the Microsoft.Servicebus.ConnectionString to add the one you copied in step 5.
 9. In Solution Explorer, Under FrontendWebRole Solution, double click QueueConnector.cs and change the following:
-        1. public const string Namespace = ___"Add your ServiceBus Namespace NAME here"___
-        2. "RootManageSharedAccessKey", ___"Add your ServiceBus Namespace PrimaryKey here")___
+	1. public const string Namespace = ___"Add your ServiceBus Namespace NAME here"___
+	2. "RootManageSharedAccessKey", ___"Add your ServiceBus Namespace PrimaryKey here")___
 10. Save the project and close Visual Studio.
 11. Start Visual Studio as Administrator by Right-Click on Visual Studio icon and Run As Administrator.
 12. Load your project and press F5 wich will run the app and start Micsoft Azure Emulator in your Taskbar.
