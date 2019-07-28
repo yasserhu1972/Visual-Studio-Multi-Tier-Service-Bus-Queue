@@ -14,7 +14,7 @@ namespace FrontendWebRole
         public static QueueClient OrdersQueueClient;
 
         // Obtain these values from the portal.
-        public const string Namespace = "cgsservicebusnamespace";
+        public const string Namespace = "Add your ServiceBus Namespace NAME here";
 
         // The name of your queue.
         public const string QueueName = "OrdersQueue";
@@ -26,7 +26,7 @@ namespace FrontendWebRole
             var uri = ServiceBusEnvironment.CreateServiceUri(
                 "sb", Namespace, String.Empty);
             var tP = TokenProvider.CreateSharedAccessSignatureTokenProvider(
-                "RootManageSharedAccessKey", "hx8xmKw6c/zySTJeNDrEy2mtmaY43GzwCVIpzkVht1s=");
+                "RootManageSharedAccessKey", "Add your ServiceBus Namespace PrimaryKey here");
             return new NamespaceManager(uri, tP);
         }
 
