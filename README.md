@@ -4,7 +4,7 @@ This app demonstrates Visual Studio Multi Tier Azure Service Bus. it Includes Se
 
 ### To use this demo you need to do the following:
 
-1- Create Azure ServiceBus Namespace.
+1. A numbered list 1- Create Azure ServiceBus Namespace.
 2- After the ServiceBus Namespace is created navigate to it.
 3- From the left pane, under Settings, select Share Access Policies
 4- Then select RootManageSharedAccessKey.
